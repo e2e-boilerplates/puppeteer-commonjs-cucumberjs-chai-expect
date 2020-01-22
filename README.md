@@ -1,4 +1,7 @@
 # Puppeteer: (commonjs, cucumber, chai)
+
+[![GitHub Actions status | e2e-boilerplates/puppeteer-commonjs-cucumber-chai](https://github.com/e2e-boilerplates/puppeteer-commonjs-cucumber-chai/workflows/NodeCI/badge.svg)](https://github.com/e2e-boilerplates/puppeteer-commonjs-cucumber-chai/actions?workflow=NodeCI)
+
 Puppeteer end-to-end test automation boilerplate project. Using commonjs, cucumber and chai.
 
 ## Getting Started

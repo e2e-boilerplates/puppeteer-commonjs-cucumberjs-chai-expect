@@ -15,7 +15,10 @@ let browser;
 setDefaultTimeout(50 * 1000);
 
 BeforeAll(async () => {
-  browser = await puppeteer.launch({ headless: false });
+  browser = process.env.GITHUB_ACTIONS
+    ? await puppeteer.launch()
+    : await puppeteer.launch({ headless: false });
+
   page = await browser.newPage();
 });
 

@@ -30,7 +30,7 @@ AfterAll(() => {
 
 Given("Navigate to the sandbox", async () => {
   await page
-    .goto("https://xgirma.github.io/sandbox/", { waitUntil: "networkidle0" })
+    .goto("https://e2e-boilerplates.github.io/sandbox/", { waitUntil: "networkidle0" })
     .catch(() => {});
 });
 

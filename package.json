@@ -30,7 +30,7 @@
   "dependencies": {
     "chai": "4.2.0",
     "cucumber": "6.0.5",
-    "puppeteer": "2.1.0"
+    "puppeteer": "2.1.1"
   },
   "husky": {
     "hooks": {

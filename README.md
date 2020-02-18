@@ -2,7 +2,7 @@
 
 [![GitHub Actions status | e2e-boilerplates/puppeteer-commonjs-cucumberjs-chai-expect](https://github.com/e2e-boilerplates/puppeteer-commonjs-cucumberjs-chai-expect/workflows/puppeteer-commonjs-cucumberjs-chai-expect/badge.svg)](https://github.com/e2e-boilerplates/puppeteer-commonjs-cucumberjs-chai-expect/actions?workflow=puppeteer-commonjs-cucumberjs-chai-expect)
 
-Puppeteer end-to-end test automation boilerplate, using CommonJS, Cucumber and Chai.
+Puppeteer end-to-end test automation boilerplate, using CommonJS, Cucumber, Chai and Expect.
 
 ## Getting Started
 

@@ -1,42 +1,49 @@
 {
-  "name": "puppeteer-commonjs-cucumberjs-chai-expect",
-  "version": "1.0.0",
-  "description": "Puppeteer end-to-end test automation boilerplate, using CommonJS, Cucumber, Chai and Expect",
-  "scripts": {
-    "test": "./node_modules/.bin/cucumber-js",
-    "lint": "npx eslint --ext .js ./ --fix"
-  },
-  "keywords": [
-    "puppeteer",
-    "commonjs",
-    "cucumber",
-    "chai",
-    "boilerplate",
-    "example",
-    "e2e",
-    "e2e test"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "dependencies": {
+    "chai": "4.2.0",
+    "cucumber": "6.0.5",
+    "puppeteer": "2.1.1"
+  },
+  "description": "Puppeteer end-to-end test automation boilerplate, using CommonJS, Cucumber, Chai and Expect",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-cucumber": "1.4.0",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "^2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1"
   },
-  "dependencies": {
-    "chai": "4.2.0",
-    "cucumber": "6.0.5",
-    "puppeteer": "2.1.1"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "keywords": [
+    "boilerplate",
+    "chai",
+    "commonjs",
+    "cucumberjs",
+    "e2e",
+    "e2e tests",
+    "example",
+    "expect",
+    "integration test",
+    "puppeteer"
+  ],
+  "license": "MIT",
+  "name": "puppeteer-commonjs-cucumberjs-chai-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/puppeteer-commonjs-cucumberjs-chai-expect.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js",
+    "lint": "npx eslint --ext .js ./ --fix"
+  },
+  "version": "1.0.0"
 }

@@ -30,7 +30,7 @@ AfterAll(() => {
 
 Given("Navigate to the sandbox", async () => {
   await page
-    .goto("https://e2e-boilerplates.github.io/sandbox/", {
+    .goto("https://e2e-boilerplate.github.io/sandbox/", {
       waitUntil: "networkidle0"
     })
     .catch(() => {});

@@ -6,7 +6,7 @@
   "dependencies": {
     "chai": "4.2.0",
     "cucumber": "6.0.5",
-    "expect": "25.1.0",
+    "expect": "25.2.0",
     "puppeteer": "2.1.1"
   },
   "description": "Puppeteer end-to-end test automation boilerplate. Using Commonjs, Cucumber, Chai and Expect.",

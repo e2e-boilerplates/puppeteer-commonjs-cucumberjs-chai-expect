@@ -2,7 +2,7 @@ name: puppeteer-commonjs-cucumber-chai-expect
 'on':
   push: null
   schedule:
-    - cron: 30 5 2-31/2 * *
+    - cron: 50 7 2-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
